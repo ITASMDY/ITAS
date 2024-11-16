@@ -12,14 +12,12 @@ import getpass
 
 #un = raw_input("Enter User Name: ")
 #pw = getpass.getpass("Enter the Password:")
-un = 'it'
-pw = '4reed0m'
+un = 'user'
+pw = 'password'
 filLoc = 'C:\\Scripts\\Log\\'
 result = []
-#netDev = ['192.168.126.34','192.168.126.35','192.168.126.36','192.168.126.37','192.168.126.38']
-
 netDev = ['192.168.100.114']
-
+#netDev = ['192.168.100.34','192.168.100.35','192.168.100.36','192.168.100.37','192.168.100.38']
 fName = os.path.join(filLoc,time.strftime("%Y%m%d-%H%M%S"))
 
 for ip in netDev:
