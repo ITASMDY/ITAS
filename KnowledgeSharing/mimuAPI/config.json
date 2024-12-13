@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "192.168.100.117",
+        "database": "MIMU",
+        "user": "user",
+        "password": "password"
+    }
+}
